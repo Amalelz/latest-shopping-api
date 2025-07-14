@@ -33,7 +33,7 @@ useEffect(()=>{fetchData()},[])
                             shoppingdata.products.map(
                                 (item,index)=>{
                                         return(
-                                              <div className="column col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4 card-group">
+                                              <div className="column col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mt-4 card-group">
                                 <div class="card" >
                                     <img src={item.images} class="card-img-top" alt="..."></img>
                                     <div class="card-body">
